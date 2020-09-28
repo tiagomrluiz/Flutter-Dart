@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
       title: "Contador de Pessoas",
-      home: Home()));
+      home: Home(),
+      debugShowCheckedModeBanner: false,
+      ));
 }
 class Home extends StatefulWidget {
   @override
